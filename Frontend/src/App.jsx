@@ -1,8 +1,8 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes, Link, Navigate } from "react-router-dom";
-import Register from "./components/Register";
-import Report from "./components/Report";
-import ReportsList from "./components/ReportsList";
+import Register from "./Components/Register";
+import Report from "./Components/Report";
+import ReportsList from "./Components/ReportsList";
 
 function App() {
   const NavLink = ({ to, children, className }) => (
